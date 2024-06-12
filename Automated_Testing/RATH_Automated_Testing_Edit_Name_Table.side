@@ -1,0 +1,319 @@
+{
+  "id": "5a3809fc-3e76-4a6e-a405-81e1b9009090",
+  "version": "2.0",
+  "name": "Pruebas_ema",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "7437913a-1db8-45b7-8d73-3b8427e6e9f8",
+    "name": "edit_name_with_description",
+    "commands": [{
+      "id": "972c98e3-c0d1-42a5-bde8-2705ca39a276",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c28ad1c-2fdd-4289-9d32-335689fa88fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "930x1010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5a339ee-4f3e-42ec-a2c0-9cc8a454f573",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Button",
+      "targets": [
+        ["css=.fui-Button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create DataSource')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6da5c0-d960-4897-b7b0-af0d6547e3be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Card:nth-child(2) > .fui-CardHeader",
+      "targets": [
+        ["css=.fui-Card:nth-child(2) > .fui-CardHeader", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dfa65dc-cbd2-430e-bece-50acf4e2f3c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fui-CardHeader__header11 > .fui-Text",
+      "targets": [
+        ["css=#fui-CardHeader__header11 > .fui-Text", "css:finder"],
+        ["xpath=//div[@id='fui-CardHeader__header11']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8036c970-815f-4792-806f-e950a2b7437d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.first > .sc-ehvNnt > .others",
+      "targets": [
+        ["css=.first > .sc-ehvNnt > .others", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/div[7]/div/div/div/div/div/div/table/thead/tr/th/div/div[2]", "xpath:idRelative"],
+        ["xpath=//th/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "219b43f2-324e-41f4-bc7c-c1aec79d9c66",
+      "comment": "",
+      "command": "click",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28cf9299-eaa0-4a11-998a-47272ef24144",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd5f4cef-3c11-408b-9661-55316de90a34",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b9f890-a370-4d6a-a493-da2c93869b94",
+      "comment": "",
+      "command": "click",
+      "target": "id=TextField126",
+      "targets": [
+        ["id=TextField126", "id"],
+        ["css=#TextField126", "css:finder"],
+        ["xpath=//input[@id='TextField126']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b32f159-c83f-42b8-b754-70f5ba0a616d",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextField126",
+      "targets": [
+        ["id=TextField126", "id"],
+        ["css=#TextField126", "css:finder"],
+        ["xpath=//input[@id='TextField126']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Genero"
+    }, {
+      "id": "8749961a-62bd-474d-9f7c-0b0d81cdec30",
+      "comment": "",
+      "command": "click",
+      "target": "id=TextField131",
+      "targets": [
+        ["id=TextField131", "id"],
+        ["css=#TextField131", "css:finder"],
+        ["xpath=//input[@id='TextField131']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21904c19-5198-4bce-b271-999ef1e4611f",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextField131",
+      "targets": [
+        ["id=TextField131", "id"],
+        ["css=#TextField131", "css:finder"],
+        ["xpath=//input[@id='TextField131']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "El genero de los estudiantes"
+    }, {
+      "id": "6bfe9ede-5d45-4b59-ae3e-979df4a8b324",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Button--primary .ms-Button-textContainer",
+      "targets": [
+        ["css=.ms-Button--primary .ms-Button-textContainer", "css:finder"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dd6011c4-640e-4706-9a19-f0c10b330bcc",
+    "name": "edit_name_without_description",
+    "commands": [{
+      "id": "086d3b43-4f03-4ea4-9b0a-ea9fa2855a21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d901424-aac9-4cf4-b173-2d6467ac4650",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "930x1010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49c3acef-54c7-4855-a6ee-5b27496f1ef0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Button",
+      "targets": [
+        ["css=.fui-Button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create DataSource')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92df3b0-74b4-4b37-bf88-818216bef0f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Card:nth-child(2) > .fui-CardHeader",
+      "targets": [
+        ["css=.fui-Card:nth-child(2) > .fui-CardHeader", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc20f08d-22e0-409d-88fa-826e1f0a7b09",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fui-CardHeader__header11 > .fui-Text",
+      "targets": [
+        ["css=#fui-CardHeader__header11 > .fui-Text", "css:finder"],
+        ["xpath=//div[@id='fui-CardHeader__header11']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e8763f4-ab9c-437c-be07-5799fe5bc48b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.first > .sc-ehvNnt > .others",
+      "targets": [
+        ["css=.first > .sc-ehvNnt > .others", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/div[7]/div/div/div/div/div/div/table/thead/tr/th/div/div[2]", "xpath:idRelative"],
+        ["xpath=//th/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58e3c3ae-6794-47e1-b740-43a02b3a51a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16105a8f-d469-4832-842d-6ee87e1060d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f206fb-c9ae-4903-b223-6abcdc3369a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#edit-button79 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=#edit-button79 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//button[@id='edit-button79']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3353c705-718b-4813-b910-09805af89d0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=TextField126",
+      "targets": [
+        ["id=TextField126", "id"],
+        ["css=#TextField126", "css:finder"],
+        ["xpath=//input[@id='TextField126']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "840775b1-72c4-4dbd-aeb4-85c94cbae576",
+      "comment": "",
+      "command": "type",
+      "target": "id=TextField126",
+      "targets": [
+        ["id=TextField126", "id"],
+        ["css=#TextField126", "css:finder"],
+        ["xpath=//input[@id='TextField126']", "xpath:attributes"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Genero"
+    }, {
+      "id": "709d13c8-aa8f-4fbd-b72d-b43a2e9266d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Button--primary .ms-Button-textContainer",
+      "targets": [
+        ["css=.ms-Button--primary .ms-Button-textContainer", "css:finder"],
+        ["xpath=//div[@id='ModalFocusTrapZone89']/div[2]/div/div/div[3]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e99aefe9-23bc-43dc-9b36-1e3c5078410c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
