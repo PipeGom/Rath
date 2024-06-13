@@ -7,45 +7,43 @@
     "id": "fb5463cf-2094-4292-ba9c-099111a95fe7",
     "name": "new_dashboard",
     "commands": [{
-      "id": "284dc740-5111-4ab1-9454-7bc79205761a",
+      "id": "4e47eb51-6e69-4074-b934-6e31e31de681",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "1e9f9b9f-fcbe-4ec1-84ac-1b9a66ae4fb7",
+      "id": "593d97f7-95d1-4603-9af7-b7be59e1428a",
       "comment": "",
       "command": "setWindowSize",
       "target": "930x1010",
       "targets": [],
       "value": ""
     }, {
-      "id": "c853b381-4f06-41b5-8912-845de6975a22",
+      "id": "6c2be9fe-ee56-41a1-acdb-f52f4b82102f",
       "comment": "",
       "command": "click",
-      "target": "css=.fui-Button",
+      "target": "css=.\\___12fm75w_v8ls9a0",
       "targets": [
-        ["css=.fui-Button", "css:finder"],
-        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Create DataSource')]", "xpath:innerText"]
+        ["css=.\\___12fm75w_v8ls9a0", "css:finder"]
       ],
       "value": ""
     }, {
-      "id": "d562bfd5-7975-48e1-ade4-93382e03cbc9",
+      "id": "82101e6c-703c-4b51-ae68-cb9dc4d5b78e",
       "comment": "",
       "command": "click",
-      "target": "css=.fui-Card:nth-child(2)",
+      "target": "id=fui-CardHeader__header6",
       "targets": [
-        ["css=.fui-Card:nth-child(2)", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div/div[2]", "xpath:position"]
+        ["id=fui-CardHeader__header6", "id"],
+        ["css=#fui-CardHeader__header6", "css:finder"],
+        ["xpath=//div[@id='fui-CardHeader__header6']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div[2]", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "c91168be-2aff-4a18-a570-755a95c8a0d8",
+      "id": "780656fd-a464-4335-9c61-b5067b5962c3",
       "comment": "",
       "command": "click",
       "target": "css=.fui-Card:nth-child(2) .fui-Caption1",
@@ -57,36 +55,60 @@
       ],
       "value": ""
     }, {
-      "id": "f13f89fd-078b-4778-9e83-58a34ce9a48c",
+      "id": "b6b755aa-132b-41db-930b-76d100a25684",
       "comment": "",
-      "command": "click",
-      "target": "css=.ms-Nav-navItem:nth-child(5) .ms-Nav-linkText",
+      "command": "mouseOver",
+      "target": "css=.ms-Nav-navItems:nth-child(2) > .ms-Nav-navItem:nth-child(1) .ms-Nav-linkText",
       "targets": [
-        ["css=.ms-Nav-navItem:nth-child(5) .ms-Nav-linkText", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[5]/div/a/span/div", "xpath:idRelative"],
-        ["xpath=//li[5]/div/a/span/div", "xpath:position"]
+        ["css=.ms-Nav-navItems:nth-child(2) > .ms-Nav-navItem:nth-child(1) .ms-Nav-linkText", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[3]/ul/li/div/a/span/div", "xpath:idRelative"],
+        ["xpath=//li[3]/ul/li/div/a/span/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "2219b0a8-8f03-458b-ba91-66b0229519a6",
+      "id": "adfb1a09-bb6c-4a4f-8319-116ae36b1a5f",
       "comment": "",
-      "command": "click",
-      "target": "css=.root-214 > .ms-Button-flexContainer",
+      "command": "mouseOut",
+      "target": "css=.ms-Nav-navItems:nth-child(2) > .ms-Nav-navItem:nth-child(1) .ms-Nav-linkText",
       "targets": [
-        ["css=.root-214 > .ms-Button-flexContainer", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/button/span", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[2]/div/button/span", "xpath:position"]
+        ["css=.ms-Nav-navItems:nth-child(2) > .ms-Nav-navItem:nth-child(1) .ms-Nav-linkText", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[3]/ul/li/div/a/span/div", "xpath:idRelative"],
+        ["xpath=//li[3]/ul/li/div/a/span/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "dab0998d-ccaf-4d2c-8ca7-5b23be073870",
+      "id": "e6799716-58c3-4ce9-8026-86d987c9ac4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Nav-navItem:nth-child(5) .ms-Button-flexContainer",
+      "targets": [
+        ["css=.ms-Nav-navItem:nth-child(5) .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[5]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7076c98-b5fd-4d14-9605-5045b05fef3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-128",
+      "targets": [
+        ["css=.icon-128", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/button/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/button/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c42393-f73d-4383-bed0-e1d9f193c18b",
       "comment": "",
       "command": "assertElementPresent",
-      "target": "id=row106-0",
+      "target": "id=row150-0",
       "targets": [
-        ["id=row106-0", "id"],
-        ["css=#row106-0", "css:finder"],
-        ["xpath=//div[@id='row106-0']", "xpath:attributes"],
+        ["id=row150-0", "id"],
+        ["css=#row150-0", "css:finder"],
+        ["xpath=//div[@id='row150-0']", "xpath:attributes"],
         ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/div", "xpath:idRelative"],
         ["xpath=//div[4]/div/div/div/div[2]/div/div/div/div/div/div/div/div", "xpath:position"]
       ],
