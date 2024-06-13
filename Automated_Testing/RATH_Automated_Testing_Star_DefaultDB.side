@@ -1,0 +1,167 @@
+{
+  "id": "5d5272f2-497e-40e6-8d3a-8e2ed5d1ef12",
+  "version": "2.0",
+  "name": "Rath",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "66c2635b-3623-4eff-82bc-6c7f2a6c21f2",
+    "name": "Create Demo Database",
+    "commands": [{
+      "id": "fcd2f7b3-47c9-474b-a848-6e3d0a22f122",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30285c04-66da-4369-965c-20f092867e1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1534x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b512551-b5b5-44cd-b31b-7c9465306c7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Button",
+      "targets": [
+        ["css=.fui-Button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create DataSource')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ff759d6-ed11-4484-989a-6abf497049af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Card:nth-child(2) .fui-CardHeader__description",
+      "targets": [
+        ["css=.fui-Card:nth-child(2) .fui-CardHeader__description", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd19d7a-4f73-472d-a669-146aab750abe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fui-Card:nth-child(1) > .fui-CardHeader > .fui-CardHeader__description",
+      "targets": [
+        ["css=.fui-Card:nth-child(1) > .fui-CardHeader > .fui-CardHeader__description", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div[3]/div/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80c420f9-3902-466f-b7bb-d5555df6c818",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//span[contains(text(), 'Origin')]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "c4611d70-0e2d-4c3e-8171-d20e4111f8e4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//span[contains(text(), 'Origin')]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "20dd4888-eaa2-47f1-ba29-90db4380bbe7",
+    "name": "Star",
+    "commands": [{
+      "id": "fa7dd442-cd3b-44a2-b0da-91c501734c4e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba71e8ad-ff42-4a4f-8063-e2bf56297284",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1534x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49f523bf-5c35-409d-98ab-bad47fbd22ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dovKpQ:nth-child(2) > .fui-Card",
+      "targets": [
+        ["css=.sc-dovKpQ:nth-child(2) > .fui-Card", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0fd236-5cae-40f0-b410-82a733e4c298",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Button:nth-child(2) .ms-Icon",
+      "targets": [
+        ["css=.ms-Button:nth-child(2) .ms-Icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/div[7]/div/div/div/div/div/div/table/thead/tr/th/div/div[2]/div[2]/div/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"],
+        ["xpath=//i[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7496996a-71af-4c81-8384-1ad785c952ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-buttons > .ms-Button:nth-child(3) > .ms-Button-flexContainer",
+      "targets": [
+        ["css=.action-buttons > .ms-Button:nth-child(3) > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/div/div[5]/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca2480d-617b-4535-9526-5728b2a933fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-205 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=.link-205 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[3]/ul/li[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/ul/li[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Data Copilot')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cd66cd7-4fae-4b65-afb5-950f251c17c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-Nav-navItem:nth-child(4) .link-132 > .ms-Button-flexContainer",
+      "targets": [
+        ["css=.ms-Nav-navItem:nth-child(4) .link-132 > .ms-Button-flexContainer", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div/nav/div/div/ul/li[4]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[4]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Collection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1122715e-9ce3-488b-82a4-61edf23a3136",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.chart-container",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e517c5a-3eaf-4f7b-9795-d539d99acbf6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["66c2635b-3623-4eff-82bc-6c7f2a6c21f2"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
